@@ -2,8 +2,8 @@
 
     import React from 'react'
 import { IoMenu,IoClose } from "react-icons/io5";
-import {useState} from "react"
-import { Link } from 'lucide-react';
+import {useState} from "react";
+import Link from 'next/link';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const toggleMenu = ()=> {
