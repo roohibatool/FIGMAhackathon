@@ -10,6 +10,15 @@ export const productSchema = {
         type: 'string',
       },
       {
+        name:"slug",
+        type:"slug",
+        title:"slug",
+        options:{
+          source:"productName"
+        }
+
+      },
+      {
         name: 'category',
         title: 'Category',
         type: 'string',
